@@ -4,7 +4,7 @@ public class Ellys8Bit {
     public static void main(String[] args) {
         int decremento = 1;
         char[] num64bit8bit=inicializar();
-        int N=5;
+        int N=80;
         char auxiliar;
         boolean finalCero = false;
         while(N-decremento>0){
@@ -23,7 +23,9 @@ public class Ellys8Bit {
         for (int i= 0; i<64; i++){
              binario=num64bit8bit[i]+binario;
         }
+        System.out.println("Cadena binaria 64bit8bit:");
         System.out.println(binario);
+        System.out.println("Valor decimal:");
         System.out.println(decimal);
     }
     
